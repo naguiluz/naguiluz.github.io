@@ -84,6 +84,9 @@
     width: 200px;
   }
 }
+.light-bg {
+  color: #10316B;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -6001,6 +6004,8 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .carousel-inner::after {
   display: block;
@@ -11290,7 +11295,7 @@ html {
 
 .content-section {
   padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: .5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11418,6 +11423,7 @@ html {
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/divider.jpg");
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11473,6 +11479,7 @@ footer.footer .social-link:hover {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/headerBG.jpeg");
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
