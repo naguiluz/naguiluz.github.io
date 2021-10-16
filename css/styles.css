@@ -87,17 +87,17 @@
   .desktop-hide {
     display: none;
   }
-  .mb-1, .mb-5 {
+  /* .mb-1, .mb-5 {
     color: #0B409C;
     opacity: 100% !important;
     font-size: 15px;
     
-  }
-  .heading-mobile {
+  } */
+  /* .heading-mobile {
     background: white;
     opacity: 85%;
     border-radius: 0%;
-  }
+  } */
   .caption {
     background-color: #0B409C;
     opacity: 0%;
@@ -1452,6 +1452,7 @@ progress {
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
+    
   }
 
   .col-lg-11 {
@@ -6053,6 +6054,9 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+}
+.tech-icon {
+  padding: 1rem;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -11328,6 +11332,10 @@ html {
   padding-top: 7.5rem;
   padding-bottom: .5rem;
 }
+.content-section-about {
+  padding-top: 6.5rem;
+  padding-bottom: 3.5rem;
+}
 
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
@@ -11454,7 +11462,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/divider.jpg");
+  background: url("../assets/img/BG\ 02\ png.png");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11510,7 +11518,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/headerBG.jpeg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/BG\ 01\ PNG.png");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
