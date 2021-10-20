@@ -707,6 +707,9 @@ progress {
     max-width: 1320px;
   }
 }
+.github {
+  margin-left: 10rem;
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
